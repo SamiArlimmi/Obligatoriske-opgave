@@ -29,7 +29,7 @@ namespace BookLib
             }
             if (TitleIncludes != null)
             {
-                result = result.Where(b => b.Title.Contains(TitleIncludes));
+                result = result.Where(b => b.Title.Contains(TitleIncludes)); // skal ikke med
             }
 
             // Ordering aka. sorting
